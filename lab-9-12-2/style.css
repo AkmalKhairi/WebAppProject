@@ -1,0 +1,128 @@
+/*-------------------------*/
+/* [START] GENERAL [START] */
+/*-------------------------*/
+
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+}
+
+h1.title {
+    margin:0;
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+/* Add Left and Right Padding */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+         width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+         width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #FFFFFF80;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+.validation-success {
+    color: green;
+}
+
+/*---------------------*/
+/* [END] GENERAL [END] */
+/*---------------------*/
+
+/*------------------------------------*/
+/* [START] TOP NAVIGATION BAR [START] */
+/*------------------------------------*/
+
+/* Style the top navigation bar */
+nav.topnav {
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 30px;
+}
+
+/* Style the topnav links */
+nav.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+nav.topnav a:hover:not(.active) {
+    background-color: #111;
+}
+
+/* Highlight active nav */
+nav.topnav .active {
+    background-color: #04AA6D;
+}
+
+
+
+/*--------------------------------*/
+/* [END] TOP NAVIGATION BAR [END] */
+/*--------------------------------*/
+
+/*-----------------------*/
+/* [START] TABLE [START] */
+/*-----------------------*/
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+/*-------------------*/
+/* [END] TABLE [END] */
+/*-------------------*/
